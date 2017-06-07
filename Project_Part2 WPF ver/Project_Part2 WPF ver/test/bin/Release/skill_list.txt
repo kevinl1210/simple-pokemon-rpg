@@ -1,0 +1,5 @@
+Double_Edge
+Fury_Attack
+Leech_Life
+Strength
+Death_Strike

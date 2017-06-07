@@ -1,0 +1,48 @@
+﻿<Window x:Class="test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="Pokemon!" Height="450" Width="625" KeyDown="characterMove">
+    <Canvas x:Name="container" HorizontalAlignment="Left" Margin="-747,-606,-621,-417" Width="1987" RenderTransformOrigin="0.514,0.537">
+        <Canvas x:Name="forest" Height="1028" Canvas.Left="258" Canvas.Top="215" Width="1480" RenderTransformOrigin="0.489,0.546">
+            <Canvas.Background>
+                <ImageBrush ImageSource="media/bg.png"/>
+            </Canvas.Background>
+            <Rectangle x:Name="player" Height="38" Canvas.Left="766" Canvas.Top="582" Width="46">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="media/down1.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button x:Name="bagButton" Content="" Canvas.Left="496" Canvas.Top="749" Width="41" Height="40" BorderBrush="Transparent" Click="bagButton_Click" Focusable="False">
+                <Button.Background>
+                    <ImageBrush ImageSource="media/bag.png"/>
+                </Button.Background>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Grid Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                        VerticalAlignment="Center"/>
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Rectangle x:Name="gym" Height="146" Canvas.Left="1215" Canvas.Top="178" Width="187">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="media/gym.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="gymArea" Height="77" Canvas.Left="1261" Canvas.Top="220" Width="121">
+                <Rectangle.Fill>
+                    <ImageBrush/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Canvas>
+    </Canvas>
+</Window>

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A6F2159B-1279-4097-A2B1-263BF20EAAE7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>test</RootNamespace>
+    <AssemblyName>test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AssistTool.cs" />
+    <Compile Include="Gym.cs" />
+    <Compile Include="GymBattleVS.xaml.cs">
+      <DependentUpon>GymBattleVS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemScreen.xaml.cs">
+      <DependentUpon>ItemScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Player.cs" />
+    <Compile Include="PokeDex.cs" />
+    <Compile Include="PokeMap.cs" />
+    <Compile Include="Pokemon.cs" />
+    <Compile Include="TypingGameScreen.xaml.cs">
+      <DependentUpon>TypingGameScreen.xaml</DependentUpon>
+    </Compile>
+    <Page Include="GymBattleVS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ItemScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="TypingGameScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\right1.png" />
+    <Resource Include="media\right2.png" />
+    <Resource Include="media\right3.png" />
+    <Resource Include="media\right4.png" />
+    <Resource Include="media\up1.png" />
+    <Resource Include="media\up2.png" />
+    <Resource Include="media\up3.png" />
+    <Resource Include="media\up4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\down1.png" />
+    <Resource Include="media\down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\down3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\left2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\left3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\left4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\down4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\gym.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\battlebackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\battlebackside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\pokeball1.png" />
+    <Resource Include="media\pokeball2.png" />
+    <Resource Include="media\pokeball3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\pokemon\arbok.png" />
+    <Resource Include="media\pokemon\beedrill.png" />
+    <Resource Include="media\pokemon\blastoise.png" />
+    <Resource Include="media\pokemon\bulbasaur.png" />
+    <Resource Include="media\pokemon\butterfree.png" />
+    <Resource Include="media\pokemon\caterpie.png" />
+    <Resource Include="media\pokemon\charizard.png" />
+    <Resource Include="media\pokemon\charmander.png" />
+    <Resource Include="media\pokemon\charmeleon.png" />
+    <Resource Include="media\pokemon\ekans.png" />
+    <Resource Include="media\pokemon\fearow.png" />
+    <Resource Include="media\pokemon\ivysaur.png" />
+    <Resource Include="media\pokemon\kakuna.png" />
+    <Resource Include="media\pokemon\metapod.png" />
+    <Resource Include="media\pokemon\pidgeot.png" />
+    <Resource Include="media\pokemon\pidgeotto.png" />
+    <Resource Include="media\pokemon\pidgey.png" />
+    <Resource Include="media\pokemon\pikachu.png" />
+    <Resource Include="media\pokemon\raichu.png" />
+    <Resource Include="media\pokemon\raticate.png" />
+    <Resource Include="media\pokemon\rattata.png" />
+    <Resource Include="media\pokemon\sandshrew.png" />
+    <Resource Include="media\pokemon\sandslash.png" />
+    <Resource Include="media\pokemon\spearow.png" />
+    <Resource Include="media\pokemon\squirtle.png" />
+    <Resource Include="media\pokemon\venusaur.png" />
+    <Resource Include="media\pokemon\wartortle.png" />
+    <Resource Include="media\pokemon\weedle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\item\Bug.png" />
+    <Resource Include="media\item\Dark.png" />
+    <Resource Include="media\item\Dragon.png" />
+    <Resource Include="media\item\Electric.png" />
+    <Resource Include="media\item\Fairy.png" />
+    <Resource Include="media\item\Fighting.png" />
+    <Resource Include="media\item\Fire.png" />
+    <Resource Include="media\item\Flying.png" />
+    <Resource Include="media\item\Ghost.png" />
+    <Resource Include="media\item\Grass.png" />
+    <Resource Include="media\item\Ground.png" />
+    <Resource Include="media\item\HpHealer.png" />
+    <Resource Include="media\item\Ice.png" />
+    <Resource Include="media\item\Normal.png" />
+    <Resource Include="media\item\Poison.png" />
+    <Resource Include="media\item\Psychic.png" />
+    <Resource Include="media\item\Rock.png" />
+    <Resource Include="media\item\Steel.png" />
+    <Resource Include="media\item\Water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\bagbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\button-bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\pokeballnew1.png" />
+    <Resource Include="media\pokeballnew2.png" />
+    <Resource Include="media\pokeballnew3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\33690.png" />
+    <Resource Include="media\33710.png" />
+    <Resource Include="media\33730.png" />
+    <Resource Include="media\33750.png" />
+    <Resource Include="media\3866.png" />
+    <Resource Include="media\effect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\pokeBack\arbok.png" />
+    <Resource Include="media\pokeBack\beedrill.png" />
+    <Resource Include="media\pokeBack\blastoise.png" />
+    <Resource Include="media\pokeBack\bulbasaur.png" />
+    <Resource Include="media\pokeBack\butterfree.png" />
+    <Resource Include="media\pokeBack\caterpie.png" />
+    <Resource Include="media\pokeBack\charizard.png" />
+    <Resource Include="media\pokeBack\charmander.png" />
+    <Resource Include="media\pokeBack\charmeleon.png" />
+    <Resource Include="media\pokeBack\ekans.png" />
+    <Resource Include="media\pokeBack\fearow.png" />
+    <Resource Include="media\pokeBack\ivysaur.png" />
+    <Resource Include="media\pokeBack\kakuna.png" />
+    <Resource Include="media\pokeBack\magikarp.png" />
+    <Resource Include="media\pokeBack\metapod.png" />
+    <Resource Include="media\pokeBack\pidgeot.png" />
+    <Resource Include="media\pokeBack\pidgeotto.png" />
+    <Resource Include="media\pokeBack\pidgey.png" />
+    <Resource Include="media\pokeBack\pikachu.png" />
+    <Resource Include="media\pokeBack\raichu.png" />
+    <Resource Include="media\pokeBack\raticate.png" />
+    <Resource Include="media\pokeBack\rattata.png" />
+    <Resource Include="media\pokeBack\sandshrew.png" />
+    <Resource Include="media\pokeBack\sandslash.png" />
+    <Resource Include="media\pokeBack\spearow.png" />
+    <Resource Include="media\pokeBack\squirtle.png" />
+    <Resource Include="media\pokeBack\venusaur.png" />
+    <Resource Include="media\pokeBack\wartortle.png" />
+    <Resource Include="media\pokeBack\weedle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\pokeBack\magikarp-dive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\dive.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

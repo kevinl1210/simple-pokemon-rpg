@@ -1,0 +1,144 @@
+﻿<Window x:Class="test.GymBattleVS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="GymBattleVS" Height="460" Width="640" KeyDown="pointerMove" Closed="on_Closed">
+    <Window.Resources>
+        <BitmapImage x:Key="SpriteImage" UriSource="media/33690.png"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="media/3866.png" ViewboxUnits="Absolute" Viewbox="249,6,240,145"/>
+        </Grid.Background>
+        <Rectangle x:Name="MyPoke" HorizontalAlignment="Left" Height="100" Margin="114,256,0,0" VerticalAlignment="Top" Width="100"/>
+        <Rectangle Width="622" Height="96" Margin="0,323,0,0" >
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="media/33690.png"
+                    ViewboxUnits="Absolute"  Viewbox="297,56,240,48"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <WrapPanel x:Name="WordDisplay" HorizontalAlignment="Left" Height="68" Margin="25,341,0,0" VerticalAlignment="Top" Width="576">
+        </WrapPanel>
+        <Rectangle x:Name="Action_Menu" Width="240" Height="96" Margin="382,323,0,0" >
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="media/33690.png" ViewboxUnits="Absolute" Viewbox="146,4,120,48"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Width="200" Height="58" Margin="40,70,382,291">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="media/33710.png" ViewboxUnits="Absolute" Viewbox="3,3,100,29"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <WrapPanel x:Name="EnPoke_info" HorizontalAlignment="Left" Height="58" Margin="40,70,0,0" VerticalAlignment="Top" Width="200">
+            <Rectangle Margin="10,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="16,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+        </WrapPanel>
+        <WrapPanel x:Name="EnHPBar" HorizontalAlignment="Left" Height="6" Margin="119,106,0,0" VerticalAlignment="Top" Width="96">
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+        </WrapPanel>
+        <Rectangle Width="200" Height="72" Margin="382,237,40,110">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="media/33710.png" ViewboxUnits="Absolute" Viewbox="3,33,100,36"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <WrapPanel x:Name="MyPoke_info" HorizontalAlignment="Left" Height="72" Margin="382,237,0,0" VerticalAlignment="Top" Width="200">
+            <Rectangle Margin="25,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="16,9,0,0" Height="16" Width="8"/>
+            <Rectangle Margin="0,9,0,0" Height="16" Width="8"/>
+        </WrapPanel>
+        <WrapPanel x:Name="PokeHP" HorizontalAlignment="Left" Height="26" Margin="478,273,0,0" VerticalAlignment="Top" Width="96">
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="6" Width="12"/>
+            <Rectangle Height="3" Width="96"/>
+            <Rectangle Margin="32,0,0,0" Height="17" Width="8"/>
+            <Rectangle Height="17" Width="8"/>
+            <Rectangle Height="17" Width="8"/>
+            <Rectangle Height="17" Width="8"/>
+            <Rectangle Height="17" Width="8"/>
+            <Rectangle Height="17" Width="8"/>
+            <Rectangle Height="17" Width="8"/>
+        </WrapPanel>
+        <Rectangle x:Name="EnPoke" HorizontalAlignment="Left" Height="100" Margin="416,70,0,0" VerticalAlignment="Top" Width="100"/>
+        <Rectangle x:Name="SpEffect" HorizontalAlignment="Left" Height="128" Margin="402,60,0,0" VerticalAlignment="Top" Width="120"/>
+        <Rectangle x:Name="choice_bg" HorizontalAlignment="Left" Height="300" Margin="160,60,0,0" VerticalAlignment="Top" Width="320" Visibility="Hidden">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="media/33750.png" ViewboxUnits="Absolute" Viewbox="0,0,160,150"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <WrapPanel x:Name="choice_ava" HorizontalAlignment="Left" Height="300" Margin="160,60,0,0" VerticalAlignment="Top" Width="320" Visibility="Hidden">
+            <Rectangle Height="24" Width="320"/>
+            <!--
+            <Rectangle Height="16" Width="8" Margin="32,0,0,0"/>
+            <Rectangle Height="16" Width="8" Margin="0,0,0,0"/>
+            <Rectangle Height="16" Width="272" Margin="0,0,0,0"/>
+            <Rectangle Height="24" Width="320" Margin="0,0,0,0"/>
+-->
+
+        </WrapPanel>
+        <Rectangle x:Name="Pointer" HorizontalAlignment="Left" Height="24" Margin="400,350,0,0" VerticalAlignment="Top" Width="12">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="media/33710.png" ViewboxUnits="Absolute" Viewbox="269,4,6,12"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <WrapPanel x:Name="PokeBallBar" HorizontalAlignment="Left" Height="14" Margin="80,51,0,0" VerticalAlignment="Top" Width="120">
+            <Rectangle Height="14" Width="20"/>
+            <Rectangle Height="14" Width="20"/>
+            <Rectangle Height="14" Width="20"/>
+            <Rectangle Height="14" Width="20"/>
+            <Rectangle Height="14" Width="20"/>
+            <Rectangle Height="14" Width="20"/>
+        </WrapPanel>
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,92 @@
+C:\Users\kevinl1210\Desktop\project2\test\bin\Release\test.exe.config
+C:\Users\kevinl1210\Desktop\project2\test\bin\Release\test.exe
+C:\Users\kevinl1210\Desktop\project2\test\bin\Release\test.pdb
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\ItemScreen.baml
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\MainWindow.baml
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\TypingGameScreen.baml
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\ItemScreen.g.cs
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\MainWindow.g.cs
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\TypingGameScreen.g.cs
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\App.g.cs
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\test_MarkupCompile.cache
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\test.g.resources
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\test.Properties.Resources.resources
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\test.csproj.GenerateResource.Cache
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\test.exe
+C:\Users\kevinl1210\Desktop\project2\test\obj\Release\test.pdb
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\bin\Release\test.exe.config
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\test.exe
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\test.pdb
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\bin\Release\test.exe
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\bin\Release\test.pdb
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\test.csprojResolveAssemblyReference.cache
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\GymBattleVS.baml
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\ItemScreen.baml
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\MainWindow.baml
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\TypingGameScreen.baml
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\GymBattleVS.g.cs
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\ItemScreen.g.cs
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\MainWindow.g.cs
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\TypingGameScreen.g.cs
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\App.g.cs
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\test_MarkupCompile.cache
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\test.g.resources
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\test.Properties.Resources.resources
+C:\Users\kevinl1210\Desktop\project_part2_finalv2\newproject2\test\obj\Release\test.csproj.GenerateResource.Cache
+C:\Users\s1155033671\Downloads\Old Project\test\bin\Release\test.exe.config
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\test.exe
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\test.pdb
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\test.csprojResolveAssemblyReference.cache
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\GymBattleVS.baml
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\ItemScreen.baml
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\MainWindow.baml
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\TypingGameScreen.baml
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\GymBattleVS.g.cs
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\ItemScreen.g.cs
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\MainWindow.g.cs
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\TypingGameScreen.g.cs
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\App.g.cs
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\test_MarkupCompile.cache
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\test.g.resources
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\test.Properties.Resources.resources
+C:\Users\s1155033671\Downloads\Old Project\test\obj\Release\test.csproj.GenerateResource.Cache
+C:\Users\s1155033671\Downloads\Old Project\test\bin\Release\test.exe
+C:\Users\s1155033671\Downloads\Old Project\test\bin\Release\test.pdb
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\bin\Release\test.exe.config
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\test.exe
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\test.pdb
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\bin\Release\test.exe
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\bin\Release\test.pdb
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\test.csprojResolveAssemblyReference.cache
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\GymBattleVS.baml
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\ItemScreen.baml
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\MainWindow.baml
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\TypingGameScreen.baml
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\GymBattleVS.g.cs
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\ItemScreen.g.cs
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\MainWindow.g.cs
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\TypingGameScreen.g.cs
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\App.g.cs
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\test_MarkupCompile.cache
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\test.g.resources
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\test.Properties.Resources.resources
+C:\Users\s1155033671\Downloads\Project_Part2 WPF ver\test\obj\Release\test.csproj.GenerateResource.Cache
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\bin\Release\test.exe.config
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\test.exe
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\test.pdb
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\bin\Release\test.exe
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\bin\Release\test.pdb
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\test.csprojResolveAssemblyReference.cache
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\GymBattleVS.baml
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\ItemScreen.baml
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\MainWindow.baml
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\TypingGameScreen.baml
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\GymBattleVS.g.cs
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\ItemScreen.g.cs
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\MainWindow.g.cs
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\TypingGameScreen.g.cs
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\App.g.cs
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\test_MarkupCompile.cache
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\test.g.resources
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\test.Properties.Resources.resources
+C:\Users\Chau\Desktop\Backup for dropbox\s1155033671@mailserv.cuhk.edu.hk\Kancolle\Project_Part2\Project_Part2 WPF ver\test\obj\Release\test.csproj.GenerateResource.Cache
